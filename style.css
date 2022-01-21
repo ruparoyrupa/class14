@@ -1,0 +1,55 @@
+
+
+
+
+.fiverr-wraper{
+    width: 600px;
+    margin: 100px auto;
+}
+
+.counter{
+    font-size: 90px;
+    text-align: center;
+    font-weight: 900px;
+   
+}
+
+.counter-wraper{
+    height: 200px;
+}
+
+
+
+/*   Todo-App  */
+
+.todo-wraper{
+    margin: 100px auto;
+    
+}
+
+span{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.close{
+    color: red;
+}
+
+
+
+/*   Age calculator   */
+
+
+#age-btn{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  
+
+   
+}
+
+#footer{
+    font-size: 20px;
+}

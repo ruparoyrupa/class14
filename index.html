@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Class14</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<!-- Fiver Counter  -->
+
+
+<div class="fiverr-wraper">
+    <div class="card">
+        <div class="card-body m-auto">
+            <form id="fiver-order" class="form-inline">
+                <div class="form-group">
+                    <input class="form form-control" type="date">
+                </div>
+                <div class="form-group">
+                    <input class="form form-control ml-2" type="time">
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary ml-2" type="submit" value="Order">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="mess"></div>
+   <div class="counter-wraper">
+    <div class="counter">
+    </div>
+   </div>
+</div>
+
+
+
+<!--  Todo App............ -->
+
+
+<div class="todo-wraper">
+    <div class="card w-50 mx-auto shadow">
+        <div class="card-header text-center">
+            <h2>ToDo App</h2>
+        </div>
+        <div class="card-body mx-auto">
+            <form id="todo_form" class="form-inline">
+                <div class="form-group">
+                   <input type="text" name="do_name" class="form-control" placeholder="Do Name"> 
+                </div>
+                <div class="form-group ml-2">
+                    <select name="opt" id="" class="form-control">
+                        <option value=""></option>
+                        <option value="Importent">Importent</option>
+                        <option value="Simple">Simple</option>
+                    </select> 
+                 </div>
+                 <div class="form-group ml-2">
+                    <input type="submit" class="btn btn-success" value="Add"> 
+                 </div>
+            </form>
+            <div class="message mt-2"></div>
+            <ul id="list" class="list-group mt-3">
+               
+            </ul>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--  Age Calculator  -->
+
+
+<div class="age-wraper">
+    <div class="card w-50 shadow mx-auto">
+        <div class="card-header text-center">
+            <h3>Age Calculator</h3>
+        </div>
+        <div class="card-body mx-auto">
+            <form id="age-cal">
+                <div class="form-group">
+                    <h5>Date of Birth</h5>
+                    <input class="form form-control" name="birth-date" type="date">
+                </div>
+                <div class="form-group">
+                    <h5>Age at the Date </h5>
+                    <input class="form form-control" name="current-date" type="date">
+                </div>
+                <div class="form-group" id="age-btn" >
+                    <input class="btn btn-primary" type="submit" value="Calculat">
+                </div>
+            </form>
+        </div>
+        <div id="footer" class="card-footer"></div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <script src="./app.js"></script>
+  </body>
+</html>
