@@ -114,6 +114,120 @@
 
 
 
+  <!-- Team member with LS   -->
+
+
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3">
+              <button class="btn btn-primary mb-4" id="add-members">Add Members</button>
+            <div class="card member-add-box">
+                <div class="card_header text-center">
+                    <button class="close btn btn-outline-warning" id="close">&times;</button>
+                    <h2>Add Members</h2>
+                </div>
+                <div class="card-body py-5">
+                    <form action="" id="devs-form">
+                      <div class="form-group">
+                        <label for="">Name</label>
+                        <input class="form-control" name="name" type="text" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                           <h5>Gender</h5>
+                          <input  name="gender" type="radio" id="male" value="Male"> <label for="Male">Male</label>
+                          <input  name="gender" type="radio" id="female" value="Female"> <label for="Female">Female</label>
+                        </div>
+                     <div class="form-group">
+                         <h4>Skill</h4>
+                         <input name="skill" type="checkbox" value="Python Developer" id="python"> <label for="Python">Python Developer</label><br>
+                         <input name="skill" type="checkbox" value="Java Developer" id="java"> <label for="Java">Java Developer</label><br>
+                         <input name="skill" type="checkbox" value="Laraval Developer" id="laraval"> <label for="Laraval">Laraval Developer</label><br>
+                         <input name="skill" type="checkbox" value="Ios Developer" id="ios"> <label for="Ios">Ios Developer</label><br>
+                         <input name="skill" type="checkbox" value="React Developer" id="react"> <label for="React">React Developer</label>
+                     </div>
+                     <div class="form-group">
+                         <label for="">Photo</label>
+                         <input class="form-control" type="text" name="photo" placeholder="Photo">
+                     </div>
+                     <div class="form-group">
+                         <br>
+                         <input type="submit" id="add-btn" class="btn btn-primary" value="Add">
+                     </div>
+                    </form>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-9">
+              <div class="row devs-area">
+                
+              </div>
+          </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  
+
+ 
+ 
+  <!-- Product with LS   -->
+
+
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <button class="btn btn-primary mb-4" id="add-product">Add Product</button>
+          <div class="card product-add-box">
+              <div class="card_header text-center">
+                  <h2>Add Product</h2>
+              </div>
+              <div class="card-body">
+                  <form action="" id="product-form">
+                    <div class="form-group">  
+                      <input class="form-control" name="product-name" type="text" placeholder="Product Name"> 
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="price" type="text" placeholder="Product Price">
+                      </div>
+                      <div class="form-group">
+                        <input class="form-control" name="sale-price" type="text" placeholder="Sale Price">
+                      </div>
+                   <div class="form-group">
+                       <input class="form-control" type="text" name="img" placeholder="Product Photo">
+                   </div>
+                   <div class="form-group">
+                       <br>
+                       <input type="submit" id="product-add-btn" class="btn-block btn btn-primary" value="Add">
+                   </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="row product-area">
+ 
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
 
 
       
@@ -125,5 +239,6 @@
 
 
     <script src="./app.js"></script>
+    <script src="./function.js"></script>
   </body>
 </html>

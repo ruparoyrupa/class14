@@ -27,7 +27,7 @@
     
 }
 
-span{
+.do-important{
     font-size: 20px;
     margin-left: 100px;
 }
@@ -52,4 +52,43 @@ span{
 
 #footer{
     font-size: 20px;
+}
+
+
+/*   Team member with LS     */
+
+.card-body{
+    clear: both;
+}
+ #add-btn{
+  float:right;
+
+
+}
+
+.member-add-box{
+    display: none;
+}
+
+
+
+/* Product Add With Ls */
+
+
+.product-add-box{
+    display: none;
+    background-color: rgb(159, 72, 240);
+}
+
+.t-card{
+    height: 700px;
+}
+
+.p-card{
+    height: 400px;
+    background-color: rgb(208, 231, 208);
+}
+
+.sale-price{
+    margin-left: 10px;
 }
