@@ -71,6 +71,18 @@ h1{
 .member-add-box{
     display: none;
 }
+.t-card{
+    height: 750px;
+  
+}
+
+.member-add-box{
+ background-color: rgb(223, 124, 226);
+}
+
+.t-body{
+    background-color: rgb(63, 150, 153);
+}
 
 
 
@@ -82,15 +94,17 @@ h1{
     background-color: rgb(159, 72, 240);
 }
 
-.t-card{
-    height: 700px;
-}
+
 
 .p-card{
-    height: 400px;
+    height: 450px;
     background-color: rgb(208, 231, 208);
 }
 
 .sale-price{
     margin-left: 10px;
+}
+
+.regular-price{
+    text-decoration: line-through;
 }

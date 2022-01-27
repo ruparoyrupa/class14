@@ -23,3 +23,4 @@ function dataGet(key) {
     return data ? JSON.parse(data) : false;
     
 };
+
